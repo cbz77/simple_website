@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="min-h-screen">
         <Navbar />
         <div className="container mx-auto p-4">
