@@ -15,15 +15,15 @@ const Menu: React.FC = () => {
     <div className="menu">
 
         {/* Desktop menu */}
-        <ul className="hidden lg:flex">
+        <ul className="hidden lg:flex text-lg">
             <li>
-                <Link to="/" className="text-white hover:text-gray-300">Home</Link>
+                <Link to="/" className="text-base-content">Home</Link>
             </li>
             <li>
-                <Link to="/about" className="text-white hover:text-gray-300">About</Link>
+                <Link to="/about" className="text-base-content">About</Link>
             </li>
             <li>
-                <Link to="/contact" className="text-white hover:text-gray-300">Contact</Link>
+                <Link to="/contact" className="text-base-content">Contact</Link>
             </li>
         </ul>
 
