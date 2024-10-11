@@ -8,7 +8,7 @@ const Home: React.FC = () => {
         <h1 className="text-4xl font-bold">Welcome to Simple Website</h1>
       </div>
 
-      <div className='flex justify-center items-center mt-10 mb-10'>
+      <div className='flex justify-center items-start mt-10 mb-10 min-h-80'>
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 

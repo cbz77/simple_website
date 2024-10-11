@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
         <h1 className="text-4xl font-bold">Contact</h1>
       </div>
 
-      <div className='flex justify-center items-center mt-10 mb-10'>
+      <div className='flex justify-center items-center mt-10 mb-10 min-h-80'>
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
