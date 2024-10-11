@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );

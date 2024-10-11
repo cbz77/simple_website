@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-gray-800 p-4 flex justify-between items-center">
 
-      <div className='text-white'>Simple Website</div>
+      <div className='text-white font-black text-2xl text-accent '>Simple Website</div>
 
       <ul className="flex justify-center space-x-4">
         <li>
