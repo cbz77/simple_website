@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import Menu from './Menu';
+
 
 const Navbar: React.FC = () => {
 
@@ -22,17 +23,7 @@ const Navbar: React.FC = () => {
 
       <div className='font-black text-2xl text-accent'>Simple Website</div>
 
-      <ul className="flex justify-center space-x-4">
-        <li>
-          <Link to="/" className="text-white hover:text-gray-300">Home</Link>
-        </li>
-        <li>
-          <Link to="/about" className="text-white hover:text-gray-300">About</Link>
-        </li>
-        <li>
-          <Link to="/contact" className="text-white hover:text-gray-300">Contact</Link>
-        </li>
-      </ul>
+      <Menu />
 
       <button className='btn btn-ghost text-white' onClick={toggleTheme}>
         {theme === 'light' ? '🌙' : '☀️'}
